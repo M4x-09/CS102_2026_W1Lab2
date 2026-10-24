@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">hafizun.uz horizontal logo</title>
+  <desc id="desc">The Signal Bridge monogram paired with the exact hafizun.uz wordmark.</desc>
+  <defs>
+    <linearGradient id="horizontalBridge" x1="98" y1="194" x2="262" y2="142" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2764FF"/>
+      <stop offset="1" stop-color="#15C7B7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="500" fill="#FFFFFF"/>
+
+  <g transform="translate(82 70)" shape-rendering="geometricPrecision">
+    <rect x="64" y="44" width="68" height="272" rx="34" fill="#2764FF"/>
+    <rect x="228" y="44" width="68" height="272" rx="34" fill="#15C7B7"/>
+    <path d="M98 194C137 194 153 194 176 184C210 170 228 142 262 142" fill="none" stroke="url(#horizontalBridge)" stroke-width="68" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="262" cy="142" r="15" fill="#FF6B5E" stroke="#FFFFFF" stroke-width="7"/>
+  </g>
+
+  <text x="462" y="286" fill="#14233B" font-family="'Noto Sans', Arial, sans-serif" font-size="154" font-weight="760" letter-spacing="-6">
+    <tspan>hafizun</tspan><tspan fill="#FF6B5E" font-size="108" font-weight="800" letter-spacing="-2">.</tspan><tspan fill="#2764FF" font-size="108" font-weight="720" letter-spacing="-2">uz</tspan>
+  </text>
+  <text x="470" y="361" fill="#63718A" font-family="'Noto Sans', Arial, sans-serif" font-size="25" font-weight="650" letter-spacing="8">DIGITAL CREATIVE AGENCY</text>
+</svg>

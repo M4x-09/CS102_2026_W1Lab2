@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">hafizun.uz standalone H symbol</title>
+  <desc id="desc">Transparent-background vector of the custom Signal Bridge monogram without text.</desc>
+  <defs>
+    <linearGradient id="symbolBridge" x1="98" y1="194" x2="262" y2="142" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2764FF"/>
+      <stop offset="1" stop-color="#15C7B7"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-14 -14) scale(1.5)" shape-rendering="geometricPrecision">
+    <rect x="64" y="44" width="68" height="272" rx="34" fill="#2764FF"/>
+    <rect x="228" y="44" width="68" height="272" rx="34" fill="#15C7B7"/>
+    <path d="M98 194C137 194 153 194 176 184C210 170 228 142 262 142" fill="none" stroke="url(#symbolBridge)" stroke-width="68" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="262" cy="142" r="15" fill="#FF6B5E" stroke="#FFFFFF" stroke-width="7"/>
+  </g>
+</svg>
