@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">hafizun.uz primary logo</title>
+  <desc id="desc">A custom H monogram made from two connected vertical forms and an ascending digital bridge, above the hafizun.uz wordmark.</desc>
+  <defs>
+    <linearGradient id="primaryBridge" x1="98" y1="194" x2="262" y2="142" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2764FF"/>
+      <stop offset="1" stop-color="#15C7B7"/>
+    </linearGradient>
+    <radialGradient id="primaryGlow" cx="50%" cy="44%" r="52%">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFF"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1080" fill="url(#primaryGlow)"/>
+
+  <!-- SIGNAL BRIDGE: custom H / connected-growth monogram -->
+  <g transform="translate(300 76) scale(1.333333)" shape-rendering="geometricPrecision">
+    <rect x="64" y="44" width="68" height="272" rx="34" fill="#2764FF"/>
+    <rect x="228" y="44" width="68" height="272" rx="34" fill="#15C7B7"/>
+    <path d="M98 194C137 194 153 194 176 184C210 170 228 142 262 142" fill="none" stroke="url(#primaryBridge)" stroke-width="68" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="262" cy="142" r="15" fill="#FF6B5E" stroke="#FFFFFF" stroke-width="7"/>
+  </g>
+
+  <!-- Responsive wordmark: the suffix is intentionally quieter -->
+  <text x="540" y="682" text-anchor="middle" fill="#14233B" font-family="'Noto Sans', Arial, sans-serif" font-size="118" font-weight="760" letter-spacing="-4">
+    <tspan>hafizun</tspan><tspan fill="#FF6B5E" font-size="84" font-weight="800" letter-spacing="-2">.</tspan><tspan fill="#2764FF" font-size="84" font-weight="720" letter-spacing="-2">uz</tspan>
+  </text>
+  <text x="540" y="754" text-anchor="middle" fill="#63718A" font-family="'Noto Sans', Arial, sans-serif" font-size="25" font-weight="650" letter-spacing="8">DIGITAL CREATIVE AGENCY</text>
+
+  <!-- Small signature line reinforces the bridge angle without decoration -->
+  <rect x="454" y="807" width="172" height="7" rx="3.5" fill="#E1E9F8"/>
+  <rect x="454" y="807" width="104" height="7" rx="3.5" fill="#15C7B7"/>
+</svg>
